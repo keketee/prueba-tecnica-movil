@@ -24,7 +24,7 @@ body {
 .box-1{
   position: relative;
   width: 327px; ;
-  height: 442px ;
+  height: 441.9975px ;
   background-color:#E28625 ;
 }
 
@@ -40,6 +40,10 @@ body {
   color: white;
   top: 100px;
   left: 49px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+
+  
 }
 .parrafo{
   position: absolute;
@@ -49,6 +53,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 
 }
 .final{
@@ -62,6 +68,8 @@ body {
   padding:  15px 30px 15px 30px ;
   background-color:white ;
   border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 .circulos{
   position: absolute;
@@ -88,6 +96,7 @@ body {
   content: '';
   margin-top: 69px;
   margin-left: 59px;
+  
 }
 .sub{
   position: absolute;
@@ -95,6 +104,8 @@ body {
   color: white;
   top: 100px;
   left: 49px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
 }
 .parrafo1{
   position: absolute;
@@ -104,6 +115,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 
 }
 .final1{
@@ -117,6 +130,8 @@ body {
   padding:  15px 30px 15px 30px ;
   background-color:white ;
   border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 .circulos2{
   position: absolute;
@@ -150,6 +165,8 @@ body {
   color: white;
   top: 100px;
   left: 49px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
 }
 .parrafo2{
   position: absolute;
@@ -159,6 +176,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 
 }
 .final2{
@@ -172,6 +191,8 @@ body {
   padding:  15px 30px 15px 30px ;
   background-color:white ;
   border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 .circulos3{
   position: absolute;
