@@ -1,208 +1,116 @@
 * {
   box-sizing: border-box;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 body {
   margin: 0;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-
+  font-size: 0.9375rem;
 }
-.box-1{
+main {
+  font-size: 0;
+}
+
+.card {
   position: relative;
-  width: 327px; ;
-  height: 441.9975px ;
-  background-color:#E28625 ;
+  width: 327px;
+  height: 27.625rem;
+  padding: 48px;
+  color: #f2f2f2;
+  font-size: 0.9375rem;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    display: inline-block;
+  }
 }
 
-.sedanimg{
-  position: absolute;
-  content: '';
-  margin-top: 69px;
-  margin-left: 59px;
+.card-orange {
+  background-color: #e28625;
+  border-radius: 8px 8px 0 0;
 }
-.sedan{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 100px;
-  left: 49px;
-  font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 400;
+@media screen and (min-width: 768px) {
+  .card-orange {
+    border-radius: 8px 0px 0px 8px;
+  }
+}
 
-  
+.card-blue {
+  background-color: #006971;
 }
-.parrafo{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
 
+.card-green {
+  background-color: #004140;
+  border-radius: 0 0 8px 8px;
 }
-.final{
-  position: absolute;
-  content: '';
-  top: 320px;
-  left: 40px;
-  color: rgb(233, 109, 0);
-  margin-left: auto;
-  margin-right: auto;
-  padding:  15px 30px 15px 30px ;
-  background-color:white ;
-  border-radius: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
+@media screen and (min-width: 768px) {
+  .card-green {
+    border-radius: 0 8px 8px 0;
+  }
 }
-.circulos{
-  position: absolute;
-  content: '';
+
+.card-icon-circle {
+  position: relative;
   width: 40px;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.093);
-  border-radius: 100%;
-  top: 60px;
-  left: 40px;
-
-  
+  border-radius: 50%;
+  background-color: rgb(0 0 0 / 0.2);
+  margin-bottom: 35px;
 }
 
-.box-2{
-  position: relative;
-  width: 327px; ;
-  height: 442px ;
-  background-color:#006971 ;
-}
-
-.suvsimg{
+.card-icon {
   position: absolute;
-  content: '';
-  margin-top: 69px;
-  margin-left: 59px;
-  
+  top: 11px;
+  left: 20px;
 }
-.sub{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 100px;
-  left: 49px;
+
+.card-title {
   font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
 }
-.parrafo1{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
 
+.card-text {
+  margin-bottom: 25px;
+  color: rgb(255 255 255 / 0.75);
+  line-height: 1.5625rem;
 }
-.final1{
+
+.card-button {
   position: absolute;
-  content: '';
-  top: 320px;
-  left: 40px;
+  bottom: 3rem;
+  padding: 0.6875rem 2rem;
+  background-color: #fff;
+  border-radius: 25px;
+}
+@media (hover: hover) {
+  .card-button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+}
+
+.card-button-orange {
+  color: #e28625;
+}
+
+.card-button-blue {
   color: #006971;
-  margin-left: auto;
-  margin-right: auto;
-  padding:  15px 30px 15px 30px ;
-  background-color:white ;
-  border-radius: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-}
-.circulos2{
-  position: absolute;
-  content: '';
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.093);
-  border-radius: 100%;
-  top: 60px;
-  left: 40px;
-
-  
 }
 
-.box-3{
-  position: relative;
-  width: 327px; ;
-  height: 442px ;
-  background-color:#004140 ;
-}
-
-.luxuimg{
-  position: absolute;
-  content: '';
-  margin-top: 69px;
-  margin-left: 59px;
-}
-.luxu{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 100px;
-  left: 49px;
-  font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 400;
-}
-.parrafo2{
-  position: absolute;
-  content: '';
-  color: white;
-  top: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-
-}
-.final2{
-  position: absolute;
-  content: '';
-  top: 320px;
-  left: 40px;
-  color: #006971;
-  margin-left: auto;
-  margin-right: auto;
-  padding:  15px 30px 15px 30px ;
-  background-color:white ;
-  border-radius: 50px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-}
-.circulos3{
-  position: absolute;
-  content: '';
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.093);
-  border-radius: 100%;
-  top: 60px;
-  left: 40px;
-
-  
+.card-button-green {
+  color: #004140;
 }
