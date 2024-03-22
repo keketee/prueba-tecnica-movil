@@ -1,4 +1,4 @@
-# Título del proyecto
+# Card movil
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/keketee/prueba-tecnica-movil/main/design/desktop-preview.jpg)
 
