@@ -34,7 +34,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 **TU NOMBRE**
 
 - [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [LinkedIn](https://github.com/keketee/prueba-tecnica-movil.git)
 
 ## Instalación
 
